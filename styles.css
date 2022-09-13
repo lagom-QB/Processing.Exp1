@@ -32,6 +32,8 @@ h3 {
   align-content: center;
   margin: 0 auto;
   color: var(--beige);
+  min-width: 100vw;
+  min-height: 100vh;
 }
 .textElements {
   text-align: left;
