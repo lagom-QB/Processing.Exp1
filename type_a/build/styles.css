@@ -1,0 +1,30 @@
+:root {
+  --black: #000000;
+  --beige: #fbffd3;
+  --white: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+canvas {
+  background-color: var(--beige);
+  image-rendering: optimizeQuality;
+  margin: 0 auto;
+}
+.container {
+  background-color: var(--black);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  color: var(--white);
+}
+.textElements {
+  text-align: left;
+  color: red;
+}
