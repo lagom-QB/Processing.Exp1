@@ -25,13 +25,12 @@ h3 {
   text-decoration: underline;
 }
 .container {
-  background-color: var(--white);
+  background-color: var(--beige);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
   margin: 0 auto;
-  color: var(--beige);
   min-width: 100vw;
   min-height: 100vh;
 }
